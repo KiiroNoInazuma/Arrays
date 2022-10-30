@@ -5,9 +5,9 @@ public class Even extends Random {
     public static void main(String[] args) {
         int check = 0;
        Random rand = new Random();
-        int[] even = new int[99];
+        int[] even = new int[15];
         for (int x = 0; x < even.length; x++) {
-            even[x] = 1 + rand.nextInt(15);
+            even[x] = rand.nextInt(100);
             if (even[x] % 2 == 0) {
                 check++;
             }
